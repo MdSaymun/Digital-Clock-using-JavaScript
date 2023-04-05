@@ -1,0 +1,9 @@
+First, I created an HTML file with a div element that will display the clock.
+I added a script tag to the HTML file and wrote the JavaScript code inside it.
+I created a function named "updateClock" that will update the clock every second using the setInterval() method.
+Inside the "updateClock" function, I used the Date() object to get the current time.
+I formatted the time into hours, minutes, and seconds using string manipulation.
+I checked if the hours are greater than 12, then I subtracted 12 from the hours and added "PM" at the end, else I added "AM".
+I displayed the formatted time in the div element using innerHTML.
+Finally, I called the "updateClock" function once to initialize the clock.
+
